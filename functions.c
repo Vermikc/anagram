@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
+
 #include "functions.h"
 
 // mix letters in each word in text
@@ -67,7 +70,7 @@ int ToLower(char* word, int len){
 }
 
 // write word in 'dest' from 'index_from' with length 'length'
-int WriteWord(char* dest, char* word, int index_from, int length){
+int WriteWord(char* dest, const char* word, int index_from, int length){
     if(index_from >= 0 && length > 0){
         for(int d_i=index_from, s_i = 0; d_i<length+index_from; d_i++, s_i++)
             dest[d_i] = word[s_i];
