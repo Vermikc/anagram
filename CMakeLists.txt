@@ -3,4 +3,4 @@ project(anagram C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(anagram main.c)
+add_executable(anagram main.c functions.c functions.h)
