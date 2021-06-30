@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/root/Desktop/git/anagram/functions.c
+stdlib.h
+-
+time.h
+-
+functions.h
+C:/Users/root/Desktop/git/anagram/functions.h
+
+C:/Users/root/Desktop/git/anagram/functions.h
+
+C:/Users/root/Desktop/git/anagram/main.c
+stdio.h
+-
+string.h
+-
+functions.h
+C:/Users/root/Desktop/git/anagram/functions.h
+

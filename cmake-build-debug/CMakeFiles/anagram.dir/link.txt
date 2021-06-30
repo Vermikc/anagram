@@ -1,0 +1,3 @@
+C:\Users\root\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\anagram.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\anagram.dir/objects.a @CMakeFiles\anagram.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\anagram.dir/objects.a -Wl,--no-whole-archive -o anagram.exe -Wl,--out-implib,libanagram.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\anagram.dir\linklibs.rsp
